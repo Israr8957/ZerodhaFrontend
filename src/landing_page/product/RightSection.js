@@ -20,7 +20,7 @@ function RightSection({
           </a>
         </div>
         <div className="col">
-          <img src={imageURL} alt="image" />
+          <img src={`${process.env.PUBLIC_URL}${imageURL}`} alt="image" />
         </div>
       </div>
     </div>

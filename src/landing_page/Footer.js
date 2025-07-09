@@ -8,10 +8,11 @@ function Footer() {
           <div className="col ">
             <img
               className="mb-5 mt-2"
-              src="media/images/logo.svg"
+              src={`${process.env.PUBLIC_URL}/media/images/logo.svg`}
               alt="logo"
               style={{ width: "35%" }}
             />
+
             <p>© 2010 - 2025, Zerodha Broking Ltd. All rights reserved.</p>
           </div>
           <div className="col">

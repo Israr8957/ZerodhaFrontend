@@ -7,7 +7,7 @@ function Navbar() {
       <div className="container">
         <Link className="navbar-brand" to="/">
           <img
-            src="media/images/logo.svg"
+            src={`${process.env.PUBLIC_URL}/media/images/logo.svg`}
             alt="logo"
             style={{ width: "25%" }}
           />

@@ -12,11 +12,12 @@ function Team() {
       >
         <div className="col p-2 ">
           <img
-            src="media/images/nithinKamath.jpg"
+            src={`${process.env.PUBLIC_URL}/media/images/nithinKamath.jpg`}
             alt="ceo"
             style={{ borderRadius: "100%", width: "50%" }}
             className="ml-5"
           />
+
           <h5 className="mt-3">Nithin Kamath</h5>
           <h6>Founder,CEO</h6>
         </div>
